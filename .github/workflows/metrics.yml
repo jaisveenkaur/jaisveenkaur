@@ -64,7 +64,7 @@ jobs:
           plugin_habits_facts: yes
           plugin_habits_charts: yes
 
-          plugin_followup: yes
+          plugin_followup: no
 
           plugin_lines: yes
 
@@ -72,11 +72,9 @@ jobs:
           plugin_repositories_featured: 6
           plugin_repositories_affiliations: owner
 
-          plugin_topics: yes
-          plugin_topics_limit: 20
-          plugin_topics_mode: icons
+          plugin_topics: no
 
-          plugin_notable: yes
+          plugin_notable: no
 
           plugin_stars: yes
 
@@ -86,4 +84,4 @@ jobs:
           plugin_achievements_threshold: C
           plugin_achievements_display: compact
 
-          plugin_traffic: yes
+          plugin_traffic: no
